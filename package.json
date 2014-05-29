@@ -1,0 +1,28 @@
+{
+  "name": "hubot-offthegrid",
+  "version": "0.1.0",
+  "author": "Jon Ursenbach <jon@ursenba.ch>",
+  "description": "The ultimate Off the Grid Hubot companion.",
+  "keywords": [
+    "github",
+    "hubot",
+    "script",
+    "off the grid",
+    "food truck"
+  ],
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonursenbach/hubot-offthegrid.git"
+  },
+  "main": "./src/offthegrid",
+  "dependencies": {
+    "cheerio": "0.12.x",
+    "moment": "^2.6.0",
+    "request": "^2.36.0"
+  }
+}
