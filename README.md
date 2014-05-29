@@ -12,11 +12,11 @@ The ultimate [Off the Grid](http://offthegridsf.com/) [Hubot](https://github.com
 
 If you don't want to supply a location to `hubot offthegrid` every time, you can set up a default location. To do this, you'll need to get the name of the location you want to default to via `hubot offthegrid list`
 
-![hubot offthegrid list](https://raw.githubusercontent.com/jonursenbach/hubot-offthegrid/img/list.png)
+![hubot offthegrid list](https://raw.githubusercontent.com/jonursenbach/hubot-offthegrid/master/img/list.png)
 
 Then supply that location name to `hubot offthegrid id`.
 
-![hubot offthegrid id](https://raw.githubusercontent.com/jonursenbach/hubot-offthegrid/img/location-id.png)
+![hubot offthegrid id](https://raw.githubusercontent.com/jonursenbach/hubot-offthegrid/master/img/location-id.png)
 
 Once you have that internal ID, set it to the `HUBOT_OFF_THE_GRID_LOCATION_ID` environment variable.
 
