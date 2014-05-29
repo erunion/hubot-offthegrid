@@ -8,6 +8,8 @@ The ultimate [Off the Grid](http://offthegridsf.com/) [Hubot](https://github.com
     hubot offthegrid <location name> - Pulls today's hours and vendors for a given location
     hubot offthegrid - Pulls today's hours and vendors for the configured location
 
+![hubot offthegrid](https://raw.githubusercontent.com/jonursenbach/hubot-offthegrid/master/img/usage.png)
+
 #### Configuration
 
 If you don't want to supply a location to `hubot offthegrid` every time, you can set up a default location. To do this, you'll need to get the name of the location you want to default to via `hubot offthegrid list`
