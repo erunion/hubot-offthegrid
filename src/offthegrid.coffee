@@ -106,13 +106,13 @@ displayLocationData = (msg, metadata, hours, events) ->
     emit += "–– Lineup ––\n"
     for event of events
       displayVendors = []
-      emit += "#{event}:\n"
+      emit += "#{event}\n"
       if !events[event]
         emit += " · No known vendors yet!\n"
       else
         for vendor in events[event]
           if vendor.url
-            displayVendors.push(" · #{vendor.name} (#{vendor.url})")
+            displayVendors.push(" · #{vendor.name}: #{vendor.url}")
           else
             displayVendors.push(" · #{vendor.name}")
 
