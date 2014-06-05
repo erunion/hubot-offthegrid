@@ -20,7 +20,9 @@ Then supply that location name to `hubot offthegrid id`.
 
 ![hubot offthegrid id](https://raw.githubusercontent.com/jonursenbach/hubot-offthegrid/master/img/location-id.png)
 
-Once you have that internal ID, set it to the `HUBOT_OFF_THE_GRID_LOCATION_ID` environment variable.
+Once you have that internal ID, set it to the `HUBOT_OFF_THE_GRID_LOCATION_ID` environment variable, and the you can use `hubot offthegrid` without passing in a location.
+
+![hubot offthegrid shorthand](https://raw.githubusercontent.com/jonursenbach/hubot-offthegrid/master/img/usage-shorthand.png)
 
 ##### Heroku
 
