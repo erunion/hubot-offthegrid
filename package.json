@@ -15,7 +15,7 @@
     "type": "git",
     "url": "https://github.com/jonursenbach/hubot-offthegrid.git"
   },
-  "main": "./src/offthegrid",
+  "main": "index.coffee",
   "dependencies": {
     "cheerio": "0.12.x",
     "moment": "^2.6.0",

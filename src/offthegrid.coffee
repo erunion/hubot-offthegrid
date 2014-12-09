@@ -204,6 +204,7 @@ getLocations = (msg, cb) ->
     # Submit a pull request if you have a better method than this failing regex: /(?<=var OTGMarketsJson = ')(.*)/i
     locations = locations.replace(/var OTGMarketsJson = '/, '')
     locations = locations.replace(/';/, '')
+    locations = locations.replace(/\\'/g, '\'')
     locations = JSON.parse(locations)
 
     sorted = []
